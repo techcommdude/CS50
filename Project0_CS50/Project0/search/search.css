@@ -71,6 +71,12 @@
     padding-top: 30px;
 }
 
+.linktext a {
+
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+}
+
 /*
 
 .main .form-search:hover, .main .form-search:focus {
