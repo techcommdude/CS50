@@ -9,70 +9,66 @@
     font-family: Arial, sans-serif;
 }
 
-/* a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited {
-    color: blue;
-} */
-
-
 ul {
     list-style: none;
-  }
-  
-  header {
+}
+
+header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-  }
-  header ul {
+}
+
+header ul {
     display: flex;
     font-size: 15px;
-  }
-  header ul li {
+}
+
+header ul li {
     margin-top: 0.9rem;
     margin-right: 1.1rem;
-  }
-  header ul li a {
+}
+
+header ul li a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.87);
-  }
-  header ul li a .fa-th {
+}
+
+header ul li a .fa-th {
     color: rgba(0, 0, 0, 0.44);
     font-size: 1.4rem;
     padding: 0 0.2rem;
-  }
-  header .link {
+}
+
+header .link {
     color: rgba(0, 0, 0, 0.87);
-  }
-  header .link:hover {
+}
+
+header .link:hover {
     text-decoration: underline;
-  }
-  header .letter-icon {
+}
+
+header .letter-icon {
     color: #fff;
     font-size: 17px;
     background: blueviolet;
     padding: 0.5rem;
     border-radius: 50%;
     margin-right: 1rem;
-  }
-  
-  .header-advanced {
+}
+
+.header-advanced {
     background: #f2f2f2;
-  }
-  .header-advanced .header-logo {
+}
+
+.header-advanced .header-logo {
     width: 100px;
     padding: 1rem;
-  }
-  .header-advanced li {
+}
+
+.header-advanced li {
     margin-top: 0.5rem;
-  }
+}
 
 .main-body {
     font-family: Arial, sans-serif;
@@ -144,15 +140,3 @@ button {
     margin-bottom: 2rem;
     margin-top: 120px;
 }
-
-/* .linktext {
-    text-align: right;
-    padding-right: 30px;
-    padding-top: 30px;
-}
-
-.linktext a {
-    color: rgba(0, 0, 0, 0.87);
-    font-size: 15px;
-    padding: 5px;
-} */
