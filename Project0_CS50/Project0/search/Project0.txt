@@ -1,0 +1,113 @@
+CS50 web programming
+
+Completed the first video.
+
+##############
+
+-First project.  Need icons and style for search box.
+
+-Arial regular font for the font.
+
+My designed page submits this which seems to be similar:  Request URL: https://www.google.com/search?as_epq=test+month
+
+
+Request URL for an exact word or phrase search of test bubble: https://www.google.ca/search?as_q=&as_epq=test+bubble&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=active&as_filetype=&tbs=
+
+
+-Right now it seems to cobble together all of the name values in the GEt request.  How to limit?
+
+######################
+ 
+ 
+Regular search: 
+Request URL: https://www.google.ca/search?q=test+bum
+
+
+
+My web page submits this.  The space seems to be a + sign and the q is in the form:  https://www.google.com/search?q=test+month
+
+
+
+Request URL: https://www.google.com/search?as_epq=test+bum&as_epq=&as_epq=&as_epq=
+
+###########
+
+Need to figure out how to submit just the text in one text box and not the others.  may not need to do this.
+
+###### All of the queries at once:
+
+All of these words: all     as_q=all
+Exact word or phrase: exact word    as_epq=exact+word
+anyh of these words: any    as_oq=any
+none of these words: none   as_eq=none
+
+This is my result from the Google Advanced search page:
+https://www.google.ca/search?as_q=all&as_epq=exact+word&as_oq=any&as_eq=none
+
+This is my result:  https://www.google.com/search?as_q=all&as_epq=exact+word&as_oq=any&as_eq=none
+
+This is what Google Search and my search show: all any "exact word" -none
+-Same amount of results as well so we are good.
+
+
+########### Image search #############
+
+Request URL: https://www.google.com/search?q=test+bum&tbm=isch&ved=2ahUKEwiN6KP376LrAhUDD60KHa1PBA0Q2-cCegQIABAA&oq=test+bum&gs_lcp=CgNpbWcQDFAAWABgupUKaABwAHgAgAEAiAEAkgEAmAEAqgELZ3dzLXdpei1pbWc&sclient=img&ei=Sc06X82fB4OetAWtn5Fo&bih=722&biw=1536&safe=active
+
+Found this one online:
+
+https://www.google.com/search?tbm=isch&q=test+bum     - This will work as a URL.
+
+Request URL: https://www.google.com/search?tbm%3Disch%26q=test+bum
+
+
+From advanced image search:  https://www.google.ca/search?as_st=y&tbm=isch&as_q=test
+
+use this:
+
+A basic search on Google is /search?q=<query>
+
+https://google.com/search?q=space
+
+to make it an image search, simply add &tbm=isch
+
+https://google.com/search?q=space&tbm=isch
+
+
+ <input type="hidden" id="images" name="tbm" value="ischo">
+
+########### Feeling Lucky #############
+
+Request URL: Request URL: https://www.google.com/search?&q=space&btnI=I%27m+Feeling+Lucky
+
+%27  is the URL encoded character for '
+
+Need to append &btnI  or just btnI in the HTML.
+
+http://www.google.com/search?q=space&btnI=space
+
+get this:
+
+Request URL: http://www.google.com/search?q=space&btnI=space
+
+
+----
+
+Need to submit this value
+spa
+
+Request URL: https://www.google.ca/search?&q=space&btnI=space
+
+https://www.google.ca/search?&q=space&btnK=space
+
+
+From the Google search page source:
+
+<input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" type="submit" data-ved="0ahUKEwjDy7iajKPrAhVXRTABHWgBDxYQ4dUDCAk"> <input class="RNmpXc" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" type="submit" jsaction="sf.lck" data-
+
+
+
+Request URL: https://www.google.com/search?q=test&btnI=I%27m+Feeling+Lucky%21
+Re
+
+
