@@ -143,3 +143,16 @@ button {
     outline: none;
     text-decoration: none;
 }
+
+/* Microphone */
+
+.fa-microphone:before {
+    content: "\f130";
+}
+
+.main .icon-micro {
+    right: 18px;
+}
+.main .fa-microphone {
+    color: #4285f4;
+}
