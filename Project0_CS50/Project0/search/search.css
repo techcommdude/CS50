@@ -9,6 +9,19 @@
     font-family: Arial, sans-serif;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+    max-width: 60vh;
+    margin-bottom: 2rem;
+    margin-top: 120px;
+}
+
 ul {
     list-style: none;
 }
@@ -128,15 +141,3 @@ button {
     text-decoration: none;
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-}
-
-.logo img {
-    width: 300px;
-    height: auto;
-    max-width: 60vh;
-    margin-bottom: 2rem;
-    margin-top: 120px;
-}
