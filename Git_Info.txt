@@ -1,0 +1,12 @@
+Git repository is at: C:\Users\gfarnell\OneDrive - Infor\Desktop\CS50\Git_Repositories\CS50
+
+
+cd "C:\Users\gfarnell\OneDrive - Infor\Desktop\CS50\Git_Repositories\CS50"
+
+git commit -m "some message"
+
+git commit -am "some message"  -  Commits all files that you made changes too.
+
+git push
+
+exit
