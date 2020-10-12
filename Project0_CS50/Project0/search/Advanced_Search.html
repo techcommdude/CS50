@@ -4,47 +4,95 @@
 <head>
     <title>Google Advanced Search</title>
     <link rel="stylesheet" href="search.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      
+    />
 </head>
+
+
 
 <body>
 
-    <div class="linktext">
+    <div class="linktext"  >
         <a href="index_test.html">Google Search</a>
- </div>
-
-    <div class="container">
-        <div class="row">
-            <!-- <div class="col-12">
-                <img class="mx-auto" alt="Google"
-                    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-            </div> -->
-
-
-            <div class="col-12">
-                <form action="https://www.google.com/search" method="get">
-
-                    <!-- Need to have another column and rows for the text to the left of the text boxes.
-                    Also need to have square boxes with blue when hovering. -->
-                    
-                    <div class="col-12">
-                        
-                        <input type="text" name="as_q" size="75" id="GoogleSearch" placeholder="All these words">
-                        <input type="text" name="as_epq" size="75" id="GoogleSearch" placeholder="Exact Word or Phrase">
-                        <input type="text" name="as_oq" size="75" id="GoogleSearch" placeholder="Any of these words">
-                        <input type="text" name="as_eq" size="75" id="GoogleSearch" placeholder="None of these words">
-                        <input type="text" name="oq" size="75" id="GoogleSearch" placeholder="Image search">
-                        </div>
-                    <div class="col-12">
-                        <input type="submit" value="Advanced Search" button class="btn btn-light" id="">
-                        
-                    </div>
-                </form>
-            </div>
-        </div>
     </div>
 
+    <form action="https://www.google.com/search" method="get">
+
+
+        <!--  tHIS IS THE SOLUTION.  how to reduce the margin in the rows? -->
+
+        <div class="container">
+
+            <div class="row" style="">
+                <div class="col-lg-6 col-sm-6" style="text-align: left;float: right;">
+                    all of these words:
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <input type="text" name="as_q" style="width: 500px; float: right;">
+                </div>
+
+            </div>
+
+
+
+            <div class="row" style="">
+                <div class="col-lg-2 col-sm-4" style="text-align: left;float: right;">
+                    this exact word or phrase:
+                </div>
+                <div class="col-lg-10 col-sm-8">
+                    <input type="text" name="as_epq" style="width: 500px;float: right;">
+                </div>
+            </div>
+
+    
+
+            <div class="row" style="">
+                <div class="col-lg-2 col-sm-4" style="text-align: left;float: right;">
+                    any of these words:
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <input type="text" name="as_oq" style="width: 500px;float: left;">
+                </div>
+            </div>
+
+        
+
+            <div class="row" style="">
+                <div class="col-lg-2 col-sm-4" style="text-align: left;float: right;">
+                    none of these words:
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <input type="text" name="as_eq" style="width: 500px; float: left;">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <input type="submit" value="Advanced Search" button class="btn btn-light" style="float: right;">
+                </div>
+            </div>
+        </div>
+    </form>
+
+<!--     <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                This is a section.
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                This is another section.
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                This is a third section.
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-6">
+                This is a fourth section.
+            </div>
+        </div>
+    </div> -->
 </body>
 
 </html>
