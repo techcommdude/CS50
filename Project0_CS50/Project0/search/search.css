@@ -9,6 +9,14 @@
     font-family: Arial, sans-serif;
 }
 
+.main-body {
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     display: flex;
     justify-content: center;
@@ -83,11 +91,7 @@ header .letter-icon {
     margin-top: 0.5rem;
 }
 
-.main-body {
-    font-family: Arial, sans-serif;
-    width: 100vw;
-    height: 100vh;
-}
+
 
 .form-search {
     width: 560px;
