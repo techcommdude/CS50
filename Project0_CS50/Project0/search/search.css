@@ -179,6 +179,10 @@ button {
     top: 15px;
 }
 
+.main .fa-camera {
+    right: 100px;
+}
+
 .main .icon-micro {
     right: 18px;
     position: absolute;

@@ -2,46 +2,69 @@
 <html lang="en">
 
 <head>
-    <title>Google Image Search</title>
+    <title>Images Search</title>
     <link rel="stylesheet" href="search.css">
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
 
-<body>
+<header>
+    <ul class>
+        <li><a class="link" href="#">About</a></li>
+        <li><a class="link" href="#">Store</a></li>
+    </ul>
+    <ul class>
+        <li><a class="link" href="#">Gmail</a></li>
+           <li><a class="link" href="index_gf.html">Search</a></li>
+        <li>
+            <a href="#"><i class="fa fa-th"></i></a>
+        </li>
+        <li><a class="letter-icon" href="#">GF</a></li>
+    </ul>
+</header>
+<body class="main-body">
 
-    <div class="linktext">
-        <a href="index_test.html">Google Search</a>
- </div>
+    <div class="main">
 
-    <div class="container">
-        <div class="row">
-            <!-- <div class="col-12">
-                <img class="mx-auto" alt="Google"
-                    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-            </div> -->
-
-
-            <div class="col-12">
-                <form action="https://www.google.com/search" method="get">
-                    
-                    <div class="col-12">
-                        
-                        <input type="text" name="q" size="75" id="GoogleSearch" placeholder="Image search">
-                        <!-- Sending a hidden code to the image search -->
-                        <input type="hidden" id="images" name="tbm" value="isch">
-                        </div>
-                    <div class="col-12">
-                        <input type="submit" value="Image Search" button class="btn btn-light" id="">
-                        
-                    </div>
-                </form>
-            </div>
+        <div class="logo">
+            <img src="googlelogo.png" alt="google logo" />
         </div>
-    </div>
 
+        <form action="https://www.google.com/images?q" method="GET">
+
+            <input class="form-search image-search" type="text" name="q" />
+            <i class="fa fa-search image-search__icon"></i>
+            <i class="fa fa-camera"></i>
+            <i class="fa fa-microphone image-search__micro"></i>
+            <button type="submit" class="image-search__button">
+                <i class="fa fa-search" id="search"></i>
+              </button>
+        </form>
+    </div>
+    <footer>
+        <div>Canada</div>
+        <div>
+            <ul>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search works</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn">Settings</button>
+                    <div class="dropdown-content">
+                        <a href="#">Search settings</a>
+                        <a href="Advanced_Search.html">Advanced search</a>
+                        <a href="#">Your data in Search</a>
+                        <a href="#">Search activity</a>
+                        <a href="#">Search help</a>
+                        <a href="#">Send feedback</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
