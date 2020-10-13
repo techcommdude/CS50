@@ -146,14 +146,14 @@ button {
 
 /* Microphone */
 
-.fa-microphone:before {
+/* .fa-microphone:before {
     content: "\f130";
-}
+} */
 
-.main .icon-micro {
+/* .main .icon-micro {
     right: 18px;
     position: absolute;
-}
+} */
 .main .fa-microphone {
     color: #4285f4;
 }
@@ -164,3 +164,15 @@ button {
     color: rgba(0, 0, 0, 0.72);
     top: 15px;
 } */
+
+.main .icon-micro {
+    right: 18px;
+  }
+  .main .icon-search,
+  .main .image-search__icon {
+    left: 15px;
+  }
+
+.main .icon-search, .main .image-search__icon {
+    left: 15px;
+}
