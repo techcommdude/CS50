@@ -271,3 +271,20 @@ button {
         display: none;
     }
 }
+
+/* Testing styles */
+
+footer div:nth-child(1) {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 15px;
+    padding: 0.8rem 2.5rem;
+}
+/* user agent stylesheet
+div {
+    display: block;
+} */
+footer {
+    color: rgba(0, 0, 0, 0.72);
+    background: #f2f2f2;
+}
