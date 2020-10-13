@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Google Search</title>
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet" />
+</head>
+
+<header>
+    <ul class>
+        <li><a class="link" href="#">About</a></li>
+        <li><a class="link" href="#">Store</a></li>
+    </ul>
+    <ul class>
+        <li><a class="link" href="#">Gmail</a></li>
+        <li><a class="link" href="Image_Search.html">Images</a></li>
+        <li><a class="link" href="Advanced_Search.html">Advanced Search</a></li>
+        <li>
+            <a href="#"><i class="fa fa-th"></i></a>
+        </li>
+        <!-- Need to make the GF link underline. -->
+        <li><a class="letter-icon" href="#">GF</a></li>
+
+    </ul>
+</header>
+
+<body class="main-body">
+
+    <div class="main">
+
+        <div class="logo">
+            <img src="googlelogo.png" alt="google logo" />
+        </div>
+
+        <form action="https://www.google.com/search" method="GET">
+
+            <input class="form-search" type="text" name="q" />
+
+            <i class="fa fa-search icon-search"></i>
+            <i class="fa fa-microphone icon-micro"></i>
+
+            <div class="searchbuttons">
+                <buttons>
+                    <input type="submit" value="Google Search" name="btnK" class="btn-search">
+                    <input type="submit" value="I'm Feeling Lucky!" name="btnI" class="btn-search">
+                </buttons>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
