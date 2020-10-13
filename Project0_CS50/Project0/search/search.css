@@ -9,6 +9,16 @@
     font-family: Arial, sans-serif;
 }
 
+@media only screen and (max-width: 1200px) {
+    .advanced-main__body {
+      width: 100%;
+    }
+
+/* @media only screen and (max-width: 600px){
+.form-search {
+    width: 280px !important;
+} */
+
 .main-body {
     font-family: Arial, sans-serif;
     width: 100vw;
@@ -157,7 +167,7 @@ button {
     text-decoration: none;
 }
 
-/* Microphone */
+/* Icons for input box */
 
 .main .fa-microphone {
     color: #4285f4;
