@@ -152,7 +152,15 @@ button {
 
 .main .icon-micro {
     right: 18px;
+    position: absolute;
 }
 .main .fa-microphone {
     color: #4285f4;
 }
+
+/* .main .fa {
+    font-size: 1.2rem;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.72);
+    top: 15px;
+} */
