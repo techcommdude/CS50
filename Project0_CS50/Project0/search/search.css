@@ -17,6 +17,7 @@ body {
     color: rgba(0, 0, 0, 0.87);
     width: 100vw;
 }
+
 .main-body {
     font-family: Arial, sans-serif;
     width: 100vw;
@@ -234,6 +235,14 @@ button {
     font-size: 13px;
 }
 
+.advanced-main__body input {
+    width: 70%;
+}
+
+.advanced-main__body #nr-to, .advanced-main__body #nr-from {
+    width: 200px;
+}
+
 @media only screen and (max-width: 1200px) {
     .advanced-main__body {
         width: 100%;
@@ -329,7 +338,7 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
@@ -402,79 +411,88 @@ footer div:nth-child(2) ul li {
     display: block;
 }
 
-
 /* Testing styles */
 
 .advanced-main {
     min-height: 85vh;
     color: rgba(0, 0, 0, 0.72);
-  }
-  .advanced-main h4 {
+}
+
+.advanced-main h4 {
     font-weight: 400;
     font-size: 18px;
-  }
-  .advanced-main__heading {
+}
+
+.advanced-main__heading {
     border-bottom: 1px solid #f2f2f2;
     padding: 0.5rem 2.5rem;
-  }
-  .advanced-main__heading h2 {
+}
+
+.advanced-main__heading h2 {
     color: #d93025;
     font-size: 20px;
     font-weight: 400;
-  }
-  .advanced-main__body {
+}
+
+.advanced-main__body {
     width: 70%;
     padding: 0.5rem 2.5rem;
-  }
-  .advanced-main__body-form-fields {
+}
+
+.advanced-main__body-form-fields {
     width: 60%;
     padding-right: 1rem;
-  }
-  .advanced-main__body-form-fields div {
+}
+
+.advanced-main__body-form-fields div {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.8rem;
-  }
-  .advanced-main__body label {
+}
+
+.advanced-main__body label {
     font-size: 13px;
-  }
-  .advanced-main__body input,
-  .advanced-main__body select {
+}
+
+.advanced-main__body input, .advanced-main__body select {
     border: 1px solid #e4e4e4;
     border-radius: 0;
     padding: 0.4rem 0.6rem;
     display: inline-block;
     max-width: 90vw;
-  }
-  .advanced-main__body input {
-    width: 70%;
-  }
-  .advanced-main__body input:focus {
+}
+
+
+.advanced-main__body input:focus {
     outline: 1px solid #4285f4;
-  }
-  .advanced-main__body select {
+}
+
+.advanced-main__body select {
     background-color: #f5f5f5;
     background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
     width: 73%;
-  }
-  .advanced-main__body select:focus {
+}
+
+.advanced-main__body select:focus {
     outline: none;
-  }
-  .advanced-main__body #nr-to,
-  .advanced-main__body #nr-from {
-    width: 200px;
-  }
-  .advanced-main__body p {
+}
+
+
+
+.advanced-main__body p {
     font-size: 11px;
     line-height: 2.9;
-  }
-  .advanced-main__body .second-tips {
+}
+
+.advanced-main__body .second-tips {
     margin-top: 3.2rem;
-  }
-  .advanced-main__body a {
+}
+
+.advanced-main__body a {
     font-size: 13px;
-  }
-  .advanced-main__body button {
+}
+
+.advanced-main__body button {
     background: #4285f4;
     color: #fff;
     border: none;
@@ -484,16 +502,19 @@ footer div:nth-child(2) ul li {
     float: right;
     margin: 0.5rem 0 1.8rem 0;
     cursor: pointer;
-  }
-  .advanced-main__body button:focus {
+}
+
+.advanced-main__body button:focus {
     outline: none;
-  }
-  .advanced-main__info {
+}
+
+.advanced-main__info {
     display: flex;
     flex-direction: column;
     padding-bottom: 2.5rem;
-  }
-  .advanced-main__body-form-upper, .advanced-main__body-form-down {
+}
+
+.advanced-main__body-form-upper, .advanced-main__body-form-down {
     border-bottom: 1px solid #f2f2f2;
     display: flex;
-  }
+}
