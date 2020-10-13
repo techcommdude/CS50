@@ -146,14 +146,6 @@ button {
 
 /* Microphone */
 
-/* .fa-microphone:before {
-    content: "\f130";
-} */
-
-/* .main .icon-micro {
-    right: 18px;
-    position: absolute;
-} */
 .main .fa-microphone {
     color: #4285f4;
 }
@@ -167,12 +159,43 @@ button {
 
 .main .icon-micro {
     right: 18px;
-  }
-  .main .icon-search,
-  .main .image-search__icon {
-    left: 15px;
-  }
+    position: absolute;
+}
 
 .main .icon-search, .main .image-search__icon {
     left: 15px;
+}
+
+.main .image-search__icon {
+    color: rgba(0, 0, 0, 0.44);
+    font-size: 16px;
+    top: 17px;
+}
+
+.main .image-search__micro {
+    right: 60px;
+}
+
+.main .image-search__button {
+    position: absolute;
+    right: 18px;
+    top: 15px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.main .image-search__button:focus {
+    outline: none;
+}
+
+.main .image-search__button #search {
+    position: relative;
+    color: #4285f4;
+    top: 0;
+    font-size: 18px;
+}
+
+.main .lang-offer {
+    font-size: 13px;
 }
