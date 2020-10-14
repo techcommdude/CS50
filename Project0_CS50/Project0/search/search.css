@@ -55,6 +55,22 @@ body {
     margin-bottom: 2rem;
 }
 
+.logo span {
+    /* position: absolute; */
+    color: #4285f4;
+    bottom: 38px;
+    right: 5px;
+}
+
+.logo-subtext{
+
+position: relative;
+color:#4285f4;
+bottom: -80px;
+right: 50px;
+
+}
+
 ul {
     list-style: none;
 }
@@ -262,6 +278,9 @@ button {
     .form-search {
         width: 280px !important;
     }
+    .logo {
+        position: relative;
+    }
     .logo img {
         width: 200px;
     }
@@ -271,6 +290,7 @@ button {
         bottom: 30px;
         right: -10px;
     }
+    
     .btn-search {
         font-size: 14px !important;
         padding: 0.5rem 1rem !important;
