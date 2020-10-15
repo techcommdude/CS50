@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     margin-top: 8%;
     font-family: Arial, sans-serif;
 }
@@ -18,13 +17,15 @@ body {
     width: 100vw;
 }
 
-/* .main-body {
+.main-body {
     font-family: Arial, sans-serif;
-    width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
-} */
+}
 
 .main .buttons {
     display: flex;
@@ -63,13 +64,11 @@ body {
     right: 5px;
 }
 
-.logo-subtext{
-
-position: relative;
-color:#4285f4;
-bottom: -80px;
-right: 50px;
-
+.logo-subtext {
+    position: relative;
+    color: #4285f4;
+    bottom: -80px;
+    right: 50px;
 }
 
 ul {
@@ -110,10 +109,6 @@ header .link {
 header .link:hover {
     text-decoration: underline;
 }
-
-/* header .link:visited {
-    color: blue;
-} */
 
 header .letter-icon {
     color: #fff;
@@ -178,8 +173,6 @@ button {
     outline: none;
     text-decoration: none;
 }
-
-/* Icons for input box */
 
 .main .fa-microphone {
     color: #4285f4;
@@ -291,7 +284,6 @@ button {
         bottom: 30px;
         right: -10px;
     }
-    
     .btn-search {
         font-size: 14px !important;
         padding: 0.5rem 1rem !important;
